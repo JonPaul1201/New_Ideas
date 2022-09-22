@@ -1,5 +1,9 @@
 <html>
-<Body>
-    
+<Body ng-app="app">
+    <cript src="bower_components/angular/angular.js"></cript>
+    <script src="app.js"></script>
+    <div ng-controller="HomeController as vm">
+        {{vm.title}}
+    </div>
 </Body>
 </html>
